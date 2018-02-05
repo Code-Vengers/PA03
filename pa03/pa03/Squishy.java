@@ -10,7 +10,7 @@ public class Squishy extends CircleShape{
 	
 	public Squishy(){
 		super();
-		this.color=new Color(0, 255, 255);
+		this.color=new Color(0, 255, 255, 100);
 	}
 	
 	public String toString(){
