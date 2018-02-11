@@ -52,12 +52,12 @@ public class CircleShape {
 				this.vy = (int)(50*Math.random()-25);
 		}
 
-    /**
-     * Draw the disk in graphics context g, with a black outline.
-		 * Its posiion is given by doubles so we have to convert them to integers!
-		 * Remember that the draw/fillOval methods take the upper left corner (u,v)
-		 * and the width (w) and height (h) of the smallest box enclosing the oval.
-     */
+   //  *
+   //   * Draw the disk in graphics context g, with a black outline.
+		 // * Its posiion is given by doubles so we have to convert them to integers!
+		 // * Remember that the draw/fillOval methods take the upper left corner (u,v)
+		 // * and the width (w) and height (h) of the smallest box enclosing the oval.
+     
     public void draw( Graphics g ) {
 				int u = (int)(x-radius);
 				int v = (int)(y-radius);
