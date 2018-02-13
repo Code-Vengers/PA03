@@ -19,8 +19,8 @@ public class ElonCircle extends CircleShape {
    }
    public void update (double dt){
      super.update(dt);
-     if (this.x > 200 && this.y > 200){
-     this.color = new Color(255,0,0,100); // changes my specific circles into a transparent yellow color
+     if (this.x > 300 && this.y > 300){ // if circle is greater than these coordinates then 
+     this.color = new Color(255,0,0,100); // changes my specific circles into a red transparent color
     }
 
    }
