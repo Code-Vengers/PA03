@@ -3,12 +3,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Squishy extends CircleShape{
-	
-	public static void main(String[] args){
-			Squishy squish=new Squishy();
-			System.out.println(squish);
-	}
-	
+		
 	private double rx,ry;
 	private int counterx, counterx2, countery, countery2;
 	
