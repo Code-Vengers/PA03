@@ -43,6 +43,9 @@ public class DrawingModel {
 
 			c = new PopCircle();
 			this.add(c);
+			
+			c = new ElonCircle();
+			this.add(c);
 
 			c = new vertical();
 			this.add(c);
